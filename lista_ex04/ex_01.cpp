@@ -58,7 +58,7 @@ void calcular_maior_menor_media(int matriz[3][5], int& maior, int& menor, float&
             soma += matriz[i][j];
         }
     }
-    media = soma / 15.0;
+    media = soma / 15;
 }
 int main() {
     int matriz[3][5];
